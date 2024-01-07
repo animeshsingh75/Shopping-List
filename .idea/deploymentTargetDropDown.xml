@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="AddShoppingFragmentTest">
+        <State />
+      </entry>
+      <entry key="ImagePickFragmentTest">
+        <State />
+      </entry>
+      <entry key="ShoppingFragmentTest">
+        <State />
+      </entry>
+      <entry key="app">
+        <State />
+      </entry>
+      <entry key="clickImage_popBackStackAndSetImageUrl()">
+        <State />
+      </entry>
+      <entry key="pressBackButton_popBackStack()">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>
