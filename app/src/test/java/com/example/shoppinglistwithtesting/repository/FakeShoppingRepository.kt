@@ -49,7 +49,7 @@ class FakeShoppingRepository : ShoppingRepository {
         return if (shouldReturnNetworkError) {
             Resource.Error("Error")
         } else {
-            Resource.Success(ImageResponse(listOf(), 0, 0))
+            Resource.Success(ImageResponse(mutableListOf(), 0, 0))
         }
     }
 }

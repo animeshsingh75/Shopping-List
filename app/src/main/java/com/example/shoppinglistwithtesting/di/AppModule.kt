@@ -9,7 +9,6 @@ import com.example.shoppinglistwithtesting.data.local.ShoppingItemDatabase
 import com.example.shoppinglistwithtesting.data.remote.PixabayApi
 import com.example.shoppinglistwithtesting.utils.Constants.BASE_URL
 import com.example.shoppinglistwithtesting.utils.Constants.DATABASE_NAME
-import com.google.gson.FieldNamingPolicy
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import dagger.Module

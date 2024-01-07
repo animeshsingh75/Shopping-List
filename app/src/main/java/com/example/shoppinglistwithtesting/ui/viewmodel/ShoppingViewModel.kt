@@ -37,10 +37,6 @@ class ShoppingViewModel @Inject constructor(
         _currImageUrl.postValue(url)
     }
 
-    fun emptyImageList(){
-        images.value?.getContentIfNotHandled()?.data?.hits?.clear()
-    }
-
     fun deleteShoppingItem(shoppingItem: ShoppingItem) = viewModelScope.launch {
         repository.deleteShoppingItem(shoppingItem)
     }
